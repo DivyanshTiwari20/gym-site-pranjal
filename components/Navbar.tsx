@@ -34,7 +34,7 @@ const Navbar: React.FC = () => {
           {/* Logo */}
           <div className="flex items-center gap-4">
             <a href="/" className="flex items-center gap-2">
-              <img src="/logo.png" alt="LEO FIT Logo" className="h-20 md:h-14 w-auto object-contain" />
+              <img src="/logo.png" alt="LEO FIT Logo" className="h-10 md:h-14 w-auto object-contain" />
             </a>
             {/* <div className="hidden sm:flex items-center gap-1.5 bg-[#1A1A1A] border border-white/5 px-2.5 py-1 rounded-full text-[9px] font-bold uppercase tracking-wider text-brand-orange">
               {/* <Clock className="w-3 h-3" /> */}
