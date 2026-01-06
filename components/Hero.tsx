@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 const Hero: React.FC = () => {
     return (
-        <section className="relative min-h-[80vh] pt-24 pb-12 flex items-center overflow-hidden bg-[#0A0A0A]">
+        <section className="relative min-h-[80vh] pt-16 lg:pt-20 pb-12 flex items-center overflow-hidden bg-[#0A0A0A]">
 
             {/* Background Ambience */}
             <div className="absolute top-0 right-0 w-full lg:w-3/4 h-full bg-gradient-to-l from-[#1f0b00] via-[#120500] to-[#0A0A0A] pointer-events-none opacity-90" />
@@ -14,7 +14,7 @@ const Hero: React.FC = () => {
             <div className="max-w-[96rem] mx-auto px-6 w-full relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
 
                 {/* Left Content */}
-                <div className="flex flex-col justify-center order-2 lg:order-1 pt-12 lg:pt-0 relative z-20 pl-2 lg:pl-8">
+                <div className="flex flex-col justify-center order-2 lg:order-1 pt-6 lg:pt-0 relative z-20 pl-2 lg:pl-8">
 
                     <motion.div
                         initial={{ opacity: 0, x: -20, filter: 'blur(10px)' }}
