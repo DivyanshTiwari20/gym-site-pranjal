@@ -74,8 +74,8 @@ const Footer: React.FC = () => {
         <div className="pt-8 border-t border-white/5 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs font-semibold text-gray-600 tracking-wider">
           <p>©{new Date().getFullYear()} LEO FIT. All Rights Reserved.</p>
           <div className="flex items-center gap-1 uppercase">
-            <span>Powered by</span>
-            <span className="text-gray-400">CMDigital</span>
+            <span>AN LITTLE GIFT FOR </span>
+            <span className="text-gray-400">PRANJAL</span>
           </div>
         </div>
       </div>

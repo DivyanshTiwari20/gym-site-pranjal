@@ -19,7 +19,7 @@ const Hero: React.FC = () => {
                     <motion.div
                         initial={{ opacity: 0, x: -20, filter: 'blur(10px)' }}
                         animate={{ opacity: 1, x: 0, filter: 'blur(0px)' }}
-                        className="flex items-center gap-3 mb-8"
+                        className="flex items-center gap-3 mb-4"
                     >
                         <span className="h-[2px] w-12 bg-brand-orange"></span>
                         <span className="text-brand-orange font-bold uppercase tracking-widest text-sm md:text-base">The Best Fitness Club</span>
@@ -30,7 +30,7 @@ const Hero: React.FC = () => {
                         initial={{ opacity: 0, y: 30, filter: 'blur(15px)', scale: 0.9 }}
                         animate={{ opacity: 1, y: 0, filter: 'blur(0px)', scale: 1 }}
                         transition={{ duration: 1, ease: "easeOut" }}
-                        className="text-6xl sm:text-7xl lg:text-[6.5rem] font-black leading-[0.9] tracking-tight mb-8 font-sans text-white"
+                        className="text-6xl sm:text-7xl lg:text-[6.5rem] font-black leading-[0.9] tracking-tight mb-5 font-sans text-white"
                     >
                         Push Your <br />
                         <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-400">
@@ -43,7 +43,7 @@ const Hero: React.FC = () => {
                         initial={{ opacity: 0, filter: 'blur(10px)', y: 20 }}
                         animate={{ opacity: 1, filter: 'blur(0px)', y: 0 }}
                         transition={{ delay: 0.4, duration: 0.8 }}
-                        className="text-gray-400 text-base sm:text-xl max-w-xl mb-8 leading-relaxed font-light"
+                        className="text-gray-400 text-base sm:text-xl max-w-xl mb-6 leading-relaxed font-light"
                     >
                         From beginner to advanced, experience workouts designed to help you achieve peak performance and exceed your fitness goals.
                     </motion.p>
@@ -53,7 +53,7 @@ const Hero: React.FC = () => {
                         initial={{ opacity: 0, y: 20, filter: 'blur(8px)', scale: 0.95 }}
                         animate={{ opacity: 1, y: 0, filter: 'blur(0px)', scale: 1 }}
                         transition={{ delay: 0.6, duration: 0.6 }}
-                        className="flex items-center gap-4 sm:gap-8 mb-12 flex-nowrap"
+                        className="flex items-center gap-4 sm:gap-8 mb-8 flex-nowrap"
                     >
                         <button className="bg-brand-orange hover:bg-orange-600 text-white font-bold py-3 px-6 sm:py-5 sm:px-12 rounded-full shadow-[0_10px_30px_rgba(255,77,0,0.4)] transition-all hover:scale-105 active:scale-95 flex items-center gap-2 group text-base sm:text-lg whitespace-nowrap">
                             Join Now <span className="text-xl sm:text-2xl leading-none group-hover:translate-x-1 transition-transform">»</span>
@@ -71,7 +71,7 @@ const Hero: React.FC = () => {
                         initial={{ opacity: 0, scale: 0.9, filter: 'blur(10px)' }}
                         animate={{ opacity: 1, scale: 1, filter: 'blur(0px)' }}
                         transition={{ delay: 0.8, duration: 0.6 }}
-                        className="flex items-center gap-6 mb-10"
+                        className="flex items-center gap-6 mb-7"
                     >
                         <div className="flex -space-x-5">
                             {[1, 2, 3].map((i) => (
