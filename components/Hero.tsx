@@ -30,7 +30,7 @@ const Hero: React.FC = () => {
                         initial={{ opacity: 0, y: 30, filter: 'blur(15px)', scale: 0.9 }}
                         animate={{ opacity: 1, y: 0, filter: 'blur(0px)', scale: 1 }}
                         transition={{ duration: 1, ease: "easeOut" }}
-                        className="text-5xl sm:text-6xl lg:text-[6.5rem] font-black leading-[0.9] tracking-tight mb-8 font-sans text-white"
+                        className="text-6xl sm:text-7xl lg:text-[6.5rem] font-black leading-[0.9] tracking-tight mb-8 font-sans text-white"
                     >
                         Push Your <br />
                         <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-400">
@@ -53,14 +53,14 @@ const Hero: React.FC = () => {
                         initial={{ opacity: 0, y: 20, filter: 'blur(8px)', scale: 0.95 }}
                         animate={{ opacity: 1, y: 0, filter: 'blur(0px)', scale: 1 }}
                         transition={{ delay: 0.6, duration: 0.6 }}
-                        className="flex flex-wrap items-center gap-8 mb-12"
+                        className="flex items-center gap-4 sm:gap-8 mb-12 flex-nowrap"
                     >
-                        <button className="bg-brand-orange hover:bg-orange-600 text-white font-bold py-5 px-12 rounded-full shadow-[0_10px_30px_rgba(255,77,0,0.4)] transition-all hover:scale-105 active:scale-95 flex items-center gap-2 group text-lg">
-                            Join Now <span className="text-2xl leading-none group-hover:translate-x-1 transition-transform">»</span>
+                        <button className="bg-brand-orange hover:bg-orange-600 text-white font-bold py-3 px-6 sm:py-5 sm:px-12 rounded-full shadow-[0_10px_30px_rgba(255,77,0,0.4)] transition-all hover:scale-105 active:scale-95 flex items-center gap-2 group text-base sm:text-lg whitespace-nowrap">
+                            Join Now <span className="text-xl sm:text-2xl leading-none group-hover:translate-x-1 transition-transform">»</span>
                         </button>
-                        <button className="flex items-center gap-4 text-white font-semibold hover:text-brand-orange transition-colors group text-lg">
-                            <div className="w-14 h-14 rounded-full bg-brand-orange flex items-center justify-center transition-transform group-hover:scale-110 shadow-lg shadow-brand-orange/20">
-                                <Play className="w-6 h-6 fill-white text-white ml-1" />
+                        <button className="flex items-center gap-2 sm:gap-4 text-white font-semibold hover:text-brand-orange transition-colors group text-base sm:text-lg whitespace-nowrap">
+                            <div className="w-10 h-10 sm:w-14 sm:h-14 rounded-full bg-brand-orange flex items-center justify-center transition-transform group-hover:scale-110 shadow-lg shadow-brand-orange/20">
+                                <Play className="w-4 h-4 sm:w-6 sm:h-6 fill-white text-white ml-0.5 sm:ml-1" />
                             </div>
                             <span className="tracking-wide">Watch Video</span>
                         </button>
